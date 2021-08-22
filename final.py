@@ -31,7 +31,7 @@ df = pd.read_csv(link1) #GDP
 
 
 ##Use the method head() to display the first five rows of the GDP data, then take a screen-shot.
-#print(df.head())
+print(df.head())
 
 
 
@@ -41,12 +41,12 @@ df = pd.read_csv(link1) #GDP
 dt = pd.read_csv(link2) #unemployment
 
 ##Use the method head() to display the first five rows of the GDP data, then take a screen-shot.
-#print(dt.head())
+print(dt.head())
 
 
 #Question 3: Display a dataframe where unemployment was greater than 8.5%. Take a screen-shot.
-#dt.query('unemployment > 8.5', inplace = True)
-#print(dt.query)
+dt.query('unemployment > 8.5', inplace = True)
+print(dt.query)
 
 
 
